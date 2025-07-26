@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premal Doshi | Portfolio</title>
+  
+  <!-- Your main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Add this line for Font Awesome icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="profile.jpg" alt="Premal Doshi" class="profile-photo" />
+    <h1>Premal Doshi</h1>
+    <p class="roles">Data Analyst | Data Scientist | Analytics Consultant | BI Engineer</p>
+    <div class="cta-buttons">
+      <a href="resume.pdf" target="_blank">Resume</a>
+      <a href="#contact">Let's Talk</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>Get to know me</h2>
+    <p>
+      With over 4 years of experience as a seasoned data professional, I excel in Python, SQL, Data Science, Data Visualization, ETL, and Business Intelligence. I specialize in transforming raw data into actionable insights that drive business performance. Currently, I am exploring LLMs and Generative AI. Let's connect and unlock the potential of data together.
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <h3>4+ yrs</h3>
+        <p>Experience</p>
+      </div>
+      <div class="stat">
+        <h3>10+</h3>
+        <p>Projects</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>My Strengths</h2>
+    <div class="skills-grid">
+      <div class="skill-box">Python, SQL, R</div>
+      <div class="skill-box">Machine Learning & Deep Learning</div>
+      <div class="skill-box">Power BI, Tableau</div>
+      <div class="skill-box">Statistical Analysis</div>
+      <div class="skill-box">ETL & Data Pipelines</div>
+      <div class="skill-box">Big Data (Snowflake, Redshift)</div>
+      <div class="skill-box">HTML/CSS, JavaScript</div>
+      <div class="skill-box">Generative AI, LLMs</div>
+    </div>
+  </section>
+<!-- Blog Section -->
+<section id="blog" class="blog">
+  <h2>My Blog</h2>
+  <div class="blog-post">
+    <img src="images/Sales Dashboard.png" alt="Car Sales Dashboard" class="blog-image" />
+    <div class="blog-content">
+      <h3>Exploring Car Sales with Power BI</h3>
+      <p>
+        This interactive Power BI dashboard provides a comprehensive view of car sales performance. 
+        It features informative cards showing:
+      </p>
+      <ul>
+        <li>Average COGS Cost</li>
+        <li>Average Labor Cost</li>
+        <li>Average Shipping Cost</li>
+        <li>Average Sales Price</li>
+        <li>Number of Dealers</li>
+        <li>Number of Customers</li>
+        <li>Count of Credit-Worthy Buyers</li>
+        <li>Most Affordable & Expensive Car Prices</li>
+      </ul>
+      <p>
+        Users can interact with slicers to filter by <strong>Make</strong>, <strong>Country</strong>, and <strong>Year</strong>.
+      </p>
+      <p>
+        Additional visualizations include:
+      </p>
+      <ul>
+        <li>Color Preferences (Pie Chart)</li>
+        <li>Car Sales Trend by Month</li>
+      </ul>
+      <p>
+        The dashboard also supports toggles for <strong>Calendar Year (CY)</strong> and <strong>Fiscal Year (FY)</strong>, as well as options to switch between <strong>Count</strong> and <strong>Percent View</strong>—a method I use regularly for building dashboards for <strong>CJA</strong> and <strong>MOCJ NYC</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio">
+    <h2>My Recent Work</h2>
+    <div class="projects">
+      <div class="project-card">
+  <img src="images/car_sales.png" alt="Car Sales DV" />
+  <div class="card-body">
+    <h4>Car Sales Dashboard (Power BI)</h4>
+    <p>Interactive dashboard with KPIs like Average Costs, Dealer & Customer insights, sliced by Make, Country & Year. Monthly trends and color preferences visualized.</p>
+    <a href="https://github.com/premal11/Sales-Dashboard" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+<!-- CIFAR-10 CNN -->
+<div class="project-card">
+  <img src="images/cnn.png" alt="CIFAR10 CNN" />
+  <div class="card-body">
+    <h4>CIFAR-10 Image Classifier (CNN)</h4>
+    <p>Built and trained a CNN to classify 10 categories of images using TensorFlow and Keras, achieving high accuracy with model tuning.</p>
+    <a href="https://github.com/premal11/CIFAR10-CNN-Project" target="_blank">View on GitHub</a>
+  </div>
+</div>
+	  <!-- Project: Supply Chain Disruption using Ship Detection -->
+<div class="project-card">
+  <img src="images/Ship_Detection.png" alt="Ship Detection Project" />
+  <div class="card-body">
+    <h4>Supply Chain Disruption via Ship Detection</h4>
+    <p>Used satellite images and detection models to monitor port-level activities and identify shipping disruptions that could impact the global supply chain.</p>
+    <a href="https://github.com/premal11/Supply-Chain-Disruption-Detection/tree/main" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+<!-- Project: Booking Reviews Analytics -->
+<div class="project-card">
+  <img src="images/Hotel.png" alt="Booking Reviews Analytics" />
+  <div class="card-body">
+    <h4>Booking.com Reviews - Text Analytics</h4>
+    <p>Performed sentiment analysis and feature extraction on hotel guest reviews using NLP. Visualized trends in customer satisfaction and hotel performance over time.</p>
+    <a href="https://github.com/premal11/Booking_Reviews_Analytics" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+<!-- Project: Amazon Reviews Intelligence -->
+<div class="project-card">
+  <img src="images/AR.png" alt="Amazon Reviews Intelligence" />
+  <div class="card-body">
+    <h4>Amazon Reviews Intelligence</h4>
+    <p>Text analytics pipeline to extract sentiment and insights from large-scale Amazon product reviews. Includes preprocessing, vectorization, and classification.</p>
+    <a href="https://github.com/premal11/Amazon_Reviews_Intel" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+     <div class="project-card">
+  <img src="images/gas.png" alt="Gas Project" />
+  <div class="card-body">
+    <h4>Gas Classification (Gradient Boosting)</h4>
+    <p>Predicted gas types and estimated concentrations using gradient boosting techniques for sensor data modeling.</p>
+    <a href="https://github.com/premal11/Gas-Classification-and-Concentration-Estimation-using-Gradient-Boosting" target="_blank">View on GitHub</a>
+  </div>
+</div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-wrapper">
+    
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h3>Send Me A Message</h3>
+      <form action="https://formspree.io/f/xgvzklby" method="POST">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="_replyto" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Contact Info Box -->
+    <div class="contact-info">
+      <h3>Reach Out</h3>
+      <p><strong>Email:</strong> <a href="mailto:premaldoshi1106@gmail.com">premaldoshi1106@gmail.com</a></p>
+      <p>I’d love to hear from you — whether you’re reaching out for a project, collaboration, or just to say hi!</p>
+    </div>
+
+  </div>
+</section>
+  
+          
+      <div class="contact-info">
+        <p><strong>Email:</strong> premaldoshi1106@gmail.com</p>
+		<p><strong>LinkedIn:</strong>
+		<a href="https://www.linkedin.com/in/premal-doshi-36440a183" target="_blank" class="linkedin-icon">
+		<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+		</a>
+		</p>
+        <p>
+  <strong>GitHub:</strong>
+  <a href="https://github.com/premal11" target="_blank" class="github-link">
+    <i class="fab fa-github"></i> 
+  </a>
+</p>
+       
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Premal Doshi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+	
